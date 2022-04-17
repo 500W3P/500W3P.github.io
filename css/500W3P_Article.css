@@ -2,6 +2,10 @@ body {
   background-image:url("../images/image.jpg")
 }
 
+ol, ul, li{
+  background-color: orange;
+}
+
 .articlebody {
   width: 900px;
   background-color: green;
@@ -18,6 +22,12 @@ body {
   background-color: pink;
   text-align: center;
 }
+
+.articletext{
+  background-color: orange;
+  padding: 5px;
+}
+
 
 .articledate {
   margin-top: 25px;
@@ -68,7 +78,7 @@ body {
 
 .statdescription {
   width: 300px;
-  text-align: left;
+  text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: purple;
@@ -91,7 +101,7 @@ margin-bottom: 50px;
   text-align: center;
 }
 
-.tags {
+.morelinks {
   background-color: green;
   margin-top: -25px;
   font-size: 1.5em;

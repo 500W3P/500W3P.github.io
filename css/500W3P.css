@@ -1,0 +1,30 @@
+body{
+  width: 1350px;
+  margin: auto;
+}
+
+table{
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  margin: auto;
+}
+
+th, td{
+  border: 1px solid black;
+  text-align: left;
+  padding: 5px;
+}
+
+.FooterIcons{
+  display: flex;
+  flex-flow: row;
+  background-color: green;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.smicon{
+  margin: 25px;
+}
