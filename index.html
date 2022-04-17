@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>500W3P - 500 Words, 3 Pictures</title>
-    <link rel="stylesheet" href="./css/500W3P.css">
-  </head>
-  <body>
-    <h1>Hello World!</h1>
-    <p>Whoa there!</p>
-    <h2>Most Recent Articles:</h2>
-    <a href="./Articles/2022//04/Burnout.html">The Lack of a New "Burnout" Game Should be Considered Soul Damage</a>
-    <a href="./Articles/Games/04142022_VampireSurvivors.html">Vampire Survivors - A 2022 Flash Game Throwback</a>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>500W3P - 500 Words, 3 Pictures</title>
+  <link rel="stylesheet" href="./css/500W3P.css">
+</head>
+
+<body>
+<p id="QOTD">asd</p>
+
+  <h1>Hello World!</h1>
+  <p>Whoa there!</p>
+  <h2>Most Recent Articles:</h2>
+  <a href="./Articles/2022//04/Burnout.html">The Lack of a New "Burnout" Game Should be Considered Soul Damage</a>
+  <a href="./Articles/Games/04142022_VampireSurvivors.html">Vampire Survivors - A 2022 Flash Game Throwback</a>
+</body>
+
 </html>
+
+
+
+<script>
+function randomtext() {
+    var randomtxt = [
+        'Quote1',
+        'Quote23',
+        'Quote2',
+        'Quote0'];
+    return randomtxt[Math.floor((Math.random() * 3.99))];
+}
+
+document.getElementById("QOTD").innerHTML = randomtext();
+</script>

@@ -1,8 +1,119 @@
-h1{
-  font-size: 3em;
-  font-style: italic;
+body {
+  background-image:url("../images/image.jpg")
 }
-p{
-  font-size: 1em;
+
+.articlebody {
+  width: 900px;
+  background-color: green;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.articletitle {
   background-color: red;
+  text-align: center;
+}
+
+.articletagline {
+  background-color: pink;
+  text-align: center;
+}
+
+.articledate {
+  margin-top: 25px;
+  background-color: purple;
+  text-align: center;
+}
+
+.articletldr {
+  width: 900px;
+  background-color: orange;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.articletldrtitle {
+  width: 900px;
+  background-color: grey;
+}
+
+.gamethumbnail {
+  background-color: purple;
+  width: 150px;
+  height: 200px;
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 50px;
+}
+
+.stats {
+  background-color: red;
+  width: 650px;
+  height: 200px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.statname {
+  width: 150px;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: green;
+}
+
+.statdescription {
+  width: 300px;
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: purple;
+}
+
+.moreramblings {
+  background-color: orange;
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+margin-bottom: 50px;
+  text-align: center;
+
+}
+
+.moreramblingstitle {
+  background-color: blue;
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.tags {
+  background-color: green;
+  margin-top: -25px;
+  font-size: 1.5em;
+}
+
+.homelink{
+  background-color: red;
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.FooterIcons{
+  width: 900px;
+  display: flex;
+  flex-flow: row;
+  background-color: green;
+  justify-content: center;
+  margin: auto;
+}
+
+.smicon{
+  margin: 25px;
 }
