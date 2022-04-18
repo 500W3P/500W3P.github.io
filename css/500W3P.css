@@ -1,6 +1,7 @@
 body{
   width: 1350px;
   margin: auto;
+  background-image:url("../images/image.jpg")
 }
 
 table{
