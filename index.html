@@ -10,10 +10,11 @@
 
 <body>
   <div class="homepagebox">
-  <h1>500W3P - 500 Words, 3 Pictures</h1>
-  <h2>Video Game Reviews, Guides, and Highlights</h2>
-  <p class="homepagetext" id="Quotes">I'm not sure how you got here, but welcome!</p>
+    <h1>500W3P - 500 Words, 3 Pictures</h1>
+    <h2>Video Game Reviews, Guides, and Highlights</h2>
+    <p id="spam">Welcoming you!</p>
   </div>
+
 
   <div class="homepagebox">
     <h2>Recent Articles:</h2>
@@ -26,15 +27,16 @@
     </ul>
   </div>
 
-<div class="homepagebox">
-  <h2>Click <a href="./gameslist.html">here</a> for a list of all the games I've written about!</h2>
-</div>
+  <div class="homepagebox">
+    <h2>Click <a href="./gameslist.html">here</a> for a list of all the games I've written about!</h2>
+  </div>
 
-<div class="homepagebox">
-  <h2>About 500W3P</h2>
-  <p class="homepagetext">Hey there! Welcome to my little braindump of a site where I like to ramble about games I've played. Ever since I was a kid I've always enjoyed playing a wide variety of video games. I created this site to jot down my thoughts on various titles
-    I've experienced as well to learn the basics of web development. Please note that anything written here is presented ad-free, is just my opinion, and for fun. Hope you enjoy!</p>
-</div>
+  <div class="homepagebox">
+    <h2>About 500W3P</h2>
+    <p class="homepagetext">Hey there! Welcome to my little braindump of a site where I like to ramble about games I've played. Ever since I was a kid I've always enjoyed playing a wide variety of video games. I created this site to jot down my
+      thoughts on various titles
+      I've experienced as well to learn the basics of web development. Please note that anything written here is presented ad-free, is just my opinion, and for fun. Hope you enjoy!</p>
+  </div>
 
   <div class="FooterIcons">
     <a href="https://www.500W3P.com"><img src="https://raw.githubusercontent.com/500W3P/500W3P.github.io/371998dd934340b2365717e0a821baadb4db80e9/images/logo.png" class="smicon" alt="Home" height="40" width="40"></a>
@@ -46,6 +48,24 @@
     <a href="https://www.twitch.tv/500w3p"><img src="https://raw.githubusercontent.com/500W3P/500W3P.github.io/371998dd934340b2365717e0a821baadb4db80e9/images/twitch.png" class="smicon" alt="Twitch" height="40" width="40"></a>
   </div>
 
+  <script>
+    function randomtext() {
+      var randomtxt = [
+        'Current Status: Waiting for Resin...',
+        'Current Status: Trapped in the Transistor.',
+        'Current Status: Stuck in ELO Hell.',
+        'Current Status: On the Fishing Trawler (BTW).',
+        'Current Status: Playing something else.',
+        'Current Status: Rocking out to DJ Atomica.',
+        'Current Status: Getting a portrait painted by Goobert.',
+      ];
+      return randomtxt[Math.floor((Math.random() * 6.99))];
+    }
+    document.getElementById("spam").innerHTML = randomtext();
+  </script>
+
+
 </body>
+
 
 </html>
