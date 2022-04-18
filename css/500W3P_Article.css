@@ -4,13 +4,12 @@
 }
 
 body {
-  background-image: url("../images/image.jpg")
+  background-image: url("../images/background.jpg")
 }
 
 ol, ul, li {
   font-size: 1.25em;
   margin-left: 15px;
-  mar
 }
 
 .articlebody {
