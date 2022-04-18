@@ -1,71 +1,73 @@
-body {
-  background-image:url("../images/image.jpg")
+* {
+  font-family: sans-serif;
+  color: #cfc6c6;
 }
 
-ol, ul, li{
-  background-color: orange;
+body {
+  background-image: url("../images/image.jpg")
+}
+
+ol, ul, li {
+font-size: 1.25em;
+margin-left: 15px;
+mar
 }
 
 .articlebody {
   width: 1350px;
-  background-color: green;
   margin: auto;
   margin-top: 50px;
 }
 
 .articletitle {
-  background-color: red;
   text-align: center;
 }
 
 .articletagline {
-  background-color: pink;
   text-align: center;
 }
 
-.articletext{
-  background-color: orange;
+.articletext {
   padding: 5px;
+  font-size: 1.5em;
 }
-
 
 .articledate {
   margin-top: 25px;
-  background-color: purple;
   text-align: center;
 }
 
 .articletldr {
   width: 900px;
-  background-color: orange;
   margin: auto;
   margin-top: 50px;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 50px;
+  border: 1px solid #cfc6c6;
 }
 
 .articletldrtitle {
   width: 900px;
-  background-color: grey;
+  border: 1px solid #cfc6c6;
 }
 
 .gamethumbnail {
-  background-color: purple;
   width: 150px;
   height: 200px;
   margin-top: 25px;
   margin-left: 25px;
   margin-right: 50px;
+  border: 1px solid #cfc6c6;
 }
 
 .stats {
-  background-color: red;
   width: 650px;
   height: 200px;
   margin-top: 25px;
   margin-bottom: 25px;
+  border: 1px solid #cfc6c6;
 }
 
 .statname {
@@ -73,7 +75,7 @@ ol, ul, li{
   font-weight: bold;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: green;
+  border: 1px solid #cfc6c6;
 }
 
 .statdescription {
@@ -81,49 +83,43 @@ ol, ul, li{
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: purple;
-}
-
-.moreramblings {
-  background-color: orange;
-  width: 900px;
-  margin: auto;
-  margin-top: 50px;
-margin-bottom: 50px;
-  text-align: center;
-
+  border: 1px solid #cfc6c6;
 }
 
 .moreramblingstitle {
-  background-color: blue;
   width: 900px;
   margin: auto;
+  text-align: center;
+}
+
+.moreramblings {
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 .morelinks {
-  background-color: green;
   margin-top: -25px;
   font-size: 1.5em;
 }
 
-.homelink{
-  background-color: red;
+.homelink {
   width: 900px;
   margin: auto;
   text-align: center;
   margin-bottom: 50px;
 }
 
-.FooterIcons{
+.FooterIcons {
   width: 900px;
   display: flex;
   flex-flow: row;
-  background-color: green;
   justify-content: center;
   margin: auto;
 }
 
-.smicon{
+.smicon {
   margin: 25px;
 }
