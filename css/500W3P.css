@@ -1,31 +1,35 @@
-body{
-  width: 1350px;
-  margin: auto;
-  background-image:url("../images/image.jpg")
+* {
+  font-family: sans-serif;
+  color: #cfc6c6;
 }
 
-table{
+body {
+  width: 1350px;
+  margin: auto;
+  background-image: url("../images/image.jpg")
+}
+
+table {
   width: 100%;
   border: 1px solid black;
   text-align: center;
   margin: auto;
 }
 
-th, td{
+th, td {
   border: 1px solid black;
   text-align: left;
   padding: 5px;
 }
 
-.FooterIcons{
+.FooterIcons {
+  width: 900px;
   display: flex;
   flex-flow: row;
-  background-color: green;
   justify-content: center;
   margin: auto;
-  margin-top: 50px;
 }
 
-.smicon{
-  margin: 30px;
+.smicon {
+  margin: 25px;
 }
