@@ -12,6 +12,7 @@ ol, ul, li {
   margin-left: 15px;
 }
 
+
 .articlebody {
   width: 1350px;
   margin: auto;
@@ -29,6 +30,15 @@ ol, ul, li {
 .articletext {
   padding: 5px;
   font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.articleimage{
+  width: 600px;
+  height: 400px;
+  margin-left: 25%;
+  margin-right: 50%;
 }
 
 .articledate {
